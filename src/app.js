@@ -8,6 +8,8 @@ import petsRouter from './routes/pets.router.js';
 import adoptionsRouter from './routes/adoption.router.js';
 import sessionsRouter from './routes/sessions.router.js';
 import viewRouter from './routes/views.router.js';
+import __dirname from './utils/index.js';
+
 
 const app = express();
 const PORT = process.env.PORT||8080;
